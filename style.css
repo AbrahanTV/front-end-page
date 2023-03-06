@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+  padding-top: 20px;
+  margin-bottom: 4rem;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  padding-left: 50px;
+  list-style-type: none;
+}
+
+li {
+  color: var(--Medium-Gray);
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: var(--Medium-Gray);
+}
+
+.register {
+  border: 2px solid gray;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 5px;
+}
+
+.log-in,
+.register {
+  cursor: pointer;
+}
+
+main {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.titulo {
+  font-size: 70px;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  padding-left: 11rem;
+  padding-right: 16rem;
+}
+
+.parrafo {
+  padding-left: 11rem;
+  padding-right: 16rem;
+  margin-bottom: 3rem;
+  font-size: 18px;
+  color: var(--Medium-Gray);
+  line-height: 28px;
+}
+
+.boton {
+  margin-left: 11rem;
+  margin-bottom: 5rem;
+  background-color: var(--Almost-Black);
+  color: var(--Almost-White);
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.svg {
+  margin-left: 11rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.right-content {
+  margin-right: 9rem;
+}
